@@ -9,6 +9,7 @@ function creatPicsolders() {
     pictureHolder = document.createElement("div");
     pictureHolder.className = "picture-holder";
     pictureHolder.id = "picture-holder-" + i;
+    // Insert content
     pics.append(pictureHolder);
   }
 }
@@ -36,6 +37,7 @@ function createCatImgs() {
   }
 }
 
+// id van catplaatje word meegegeven
 function maakFavoriet(id) {
   console.log("maak mijn favoriet" + id);
   //   select de favoriet div
@@ -43,7 +45,8 @@ function maakFavoriet(id) {
 
   //   haalt alle favorieten weg
   for (let i = 0; i < nieteenfavoriet.length; i++) {
-    nieteenfavoriet[i].style.backgroundImage = "none";
+    nieteenfavoriet[i].style.backgroundImage =
+      "/javascript-arrays/img/hart.jpg";
   }
   //   id word toegevoegd waardoor er een favoriet word toegevoegd
   favoriet = document.getElementById("favoriet_" + id);
