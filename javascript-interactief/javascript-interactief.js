@@ -1,3 +1,4 @@
+// div met de id pics selecten
 pics = document.getElementById("pics");
 creatPicsolders();
 createCatImgs();
