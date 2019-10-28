@@ -45,8 +45,7 @@ function maakFavoriet(id) {
 
   //   haalt alle favorieten weg
   for (let i = 0; i < nieteenfavoriet.length; i++) {
-    nieteenfavoriet[i].style.backgroundImage =
-      "/javascript-arrays/img/hart.jpg";
+    nieteenfavoriet[i].style.backgroundImage = "none";
   }
   //   id word toegevoegd waardoor er een favoriet word toegevoegd
   favoriet = document.getElementById("favoriet_" + id);
