@@ -1,6 +1,6 @@
-//adds a string into HTML in side a H1
+//adds a string into HTML in paginatitel H1
 document.getElementById("paginatitel").innerText = "mijn geweldige pagina";
-//adds a string into HTML side a H3
+//adds a string into HTML subkop H3
 document.getElementById("subkop").innerText = "mijn geweldige subkop";
 //adds a IMG  to a IMG tag
 document.getElementById("aap1").src =
