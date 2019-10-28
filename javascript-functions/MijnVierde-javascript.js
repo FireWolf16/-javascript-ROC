@@ -20,13 +20,14 @@ mijnauto.gasgeven();
 mijnauto.gasgeven();
 mijnauto.toeteren();
 
-/* video imageslider  */
-//
+/*imageslider  */
+//array maken met getallen 1 tot 9
 let plaatjes = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let slideholder = document.getElementById("slideholder");
+// first imge is a cat pic
 slideholder.style.backgroundImage = "url('../javascript-arrays/img/cat1.jpg')";
 
-// als je op het plaatje klikt dan word hetaap toegevoegd
+// als je op het plaatje klikt dan word het cat plaatje toegevoegd
 slideholder.addEventListener("click", function() {
   slideholder.style.backgroundImage =
     "url('../javascript-arrays/img/cat" + getAap() + ".jpg')";
